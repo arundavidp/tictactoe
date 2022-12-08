@@ -19,5 +19,7 @@ If any of the steps fail, the catch block is called, and the error message is pr
 [https://github.com/arundavidp/tictactoe/blob/3bde9313ef29d3d11c83c1332fbd339c72f65694/lib/main.dart#L52-L55](https://github.com/arundavidp/tictactoe/blob/3bde9313ef29d3d11c83c1332fbd339c72f65694/lib/main.dart#L52-L55)
 
 guardWithCrashlytics function is called passing the guardedMain function, and the nullable crashlytics object. The guardWithCrashlytics function is intended to log all errors caught while running the app in the Firebase Crashlytics service. This helps the developer to later check what errors occurred when users where using the app.
+
 The typical main function in flutter apps (which calls the runApp function) is guardedMain here, and it is passed to guardWithCrashlytics function as a callback.
+
 The guardWithCrashlytics function will call the guardedMain function from its body.
