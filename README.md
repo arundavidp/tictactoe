@@ -23,3 +23,11 @@ guardWithCrashlytics function is called passing the guardedMain function, and th
 The typical main function in flutter apps (which calls the runApp function) is guardedMain here, and it is passed to guardWithCrashlytics function as a callback.
 
 The guardWithCrashlytics function will call the guardedMain function from its body.
+
+
+
+GoRouter is used to define the root widget to render on startup, and the widgets for different paths which are accessed with context.go() method.
+
+{% content-ref url="concepts/gorouter.md" %}
+[gorouter.md](concepts/gorouter.md)
+{% endcontent-ref %}
