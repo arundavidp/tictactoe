@@ -4,11 +4,7 @@
 
 It is the starting function of the app
 
-
-
-\---
-
-
+---
 
 [https://github.com/arundavidp/tictactoe/blob/d24a0da67150be19bb59e45a1234bda060cc874a/lib/main.dart#L39-L50](https://github.com/arundavidp/tictactoe/blob/d24a0da67150be19bb59e45a1234bda060cc874a/lib/main.dart#L39-L50)
 
@@ -18,11 +14,7 @@ In the try block, initially the Firebase itself is initialized after calling the
 After Firebase is initialized then the FirebaseCrashlytics class instance is assigned to the variable crashlytics, thus it represents the FirebaseCrashlytics object to be used in the app.\
 If any of the steps fail, the catch block is called, and the error message is printed.
 
-
-
-\---
-
-
+---
 
 [https://github.com/arundavidp/tictactoe/blob/8366457f89e210892ee6da86379135094798503c/lib/main.dart#L52-L55](https://github.com/arundavidp/tictactoe/blob/8366457f89e210892ee6da86379135094798503c/lib/main.dart#L52-L55)
 
