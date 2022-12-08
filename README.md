@@ -28,4 +28,4 @@ The guardWithCrashlytics function will call the guardedMain function from its bo
 
 GoRouter is used to define the root widget to render on startup, and the widgets for different paths which are accessed with context.go() method.
 
-[https://github.com/arundavidp/tictactoe/blob/c7daf196de48fc06c11bcb1dceb976a7f4a07157/concepts/gorouter.md](https://github.com/arundavidp/tictactoe/blob/c7daf196de48fc06c11bcb1dceb976a7f4a07157/concepts/gorouter.md)
+[https://github.com/arundavidp/tictactoe/blob/c7daf196de48fc06c11bcb1dceb976a7f4a07157/concepts/gorouter.md?plain=1#L5](https://github.com/arundavidp/tictactoe/blob/c7daf196de48fc06c11bcb1dceb976a7f4a07157/concepts/gorouter.md?plain=1#L5)
